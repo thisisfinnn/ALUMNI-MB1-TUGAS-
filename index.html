@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Alumni Angkatan 2025</title>
 
-  <!-- Tailwind CDN -->
+  <!--  Plugin Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Tailwind config untuk Dark Mode -->
+  <!-- Tailwind config untuk dark Mode -->
   <script>
     tailwind.config = {
       darkMode: 'class'
@@ -27,15 +27,14 @@
     .modal {
       background-color: rgba(0, 0, 0, 0.5);
     }
-    body {
-  cursor: url('https://images-eds-ssl.xboxlive.com/image?url=rOOPPWX9ohGfLksSzq1Wig8iTZ05uPbeb.DpV4tdbbbWNm1XXu8uEEIOyHxIQzbkg6QV19S8ccQ3rJJvQNmSUjWGPrJ2xdsBXB0tu3QXTYir1QqCQaFq6boVafipW8dNYmXgbqOR2.PoENWIhB0PYahWrh5hGXnIZ.CXDPtZ_PNZawbC0Kp2ZHjvgMiONF4hvxv6cWCDbO3MX2YKmsdTFJSWe1yynb8kgGfhhqhpSrrfuBeuuHFr3FpVuAqgPnCILkISo0y2Jrgnpp7QqSYq0ipp8Zm5Uuf9n7O5469Fo0aP0ImfNqt1JQltoVNudk0N&format=source&h=253'), auto;
-}
+
   </style>
 </head>
 
+<!-- Background light mode-->
 <body class="bg-gradient-to-br from-blue-300 to-yellow-100 dark:from-gray-900 dark:to-gray-800 min-h-screen p-6 text-gray-900 dark:text-gray-100">
 
-  <!-- Tombol Dark Mode -->
+  <!-- Tombol dark mode -->
   <div class="flex justify-end mb-4">
     <button id="themeToggle" class="bg-blue-600 dark:bg-yellow-400 text-white dark:text-black px-4 py-2 rounded-full shadow-md hover:shadow-lg transition">
       🌙 Dark Mode
@@ -47,7 +46,7 @@
     <div class="flex items-center justify-center gap-4 mb-4">
       <img src="https://abtour.co.id/wp-content/uploads/2023/08/mutiara-bangsa.png" alt="Logo Sekolah" class="w-20 h-20">
       <h1 class="text-5xl md:text-6xl text-blue-800 dark:text-yellow-300 font-bold judul-website">Alumni Mutiara Bangsa 1</h1>
-      <img src="Logo.PNG" alt="Logo Kelompok" class="w-20 h-20">
+      <img src="Logo.png" alt="Logo Kelompok" class="w-20 h-20">
     </div>
     <p class="text-xl text-gray-700 dark:text-gray-300 border-b-2 border-blue-300 dark:border-yellow-300 px-4 pb-1">Angkatan 2025</p>
   </header>
@@ -55,27 +54,27 @@
   <!-- Daftar Alumni -->
   <div class="max-w-[1400px] mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
 
-    <!-- Alumni 1 -->
+    <!-- Luvin -->
     <div class="alumni-card bg-white dark:bg-gray-700 p-8 rounded-3xl shadow-2xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 cursor-pointer"
-      onclick="openModal('Luvin', 'LuvinAlmet.JPG', 'Dulu aku tidak bisa bergaul, namun setelah 3 tahun berada di SMK, saya perlahan lahan bisa berkomunikasi dengan orang lain.')">
+      onclick="openModal('Luvin', 'LuvinAlmet.jpg', 'Dulu aku tidak bisa bergaul, namun setelah 3 tahun berada di SMK, saya perlahan lahan bisa berkomunikasi dengan orang lain.')">
       <h2 class="text-3xl font-bold text-center mb-6 text-blue-900 dark:text-yellow-200">Luvin</h2>
       <div class="bg-blue-50 dark:bg-gray-800 p-4 rounded-xl shadow-inner">
-        <img src="Kazuha.JPG" alt="Foto Luvin" class="rounded-xl mx-auto hover:scale-105 transition-transform duration-300 w-full h-[460px] object-cover">
+        <img src="Kazuha.jpg" alt="Foto Luvin" class="rounded-xl mx-auto hover:scale-105 transition-transform duration-300 w-full h-[460px] object-cover">
       </div>
     </div>
 
-    <!-- Alumni 2 -->
+    <!-- Yustin -->
     <div class="alumni-card bg-white dark:bg-gray-700 p-8 rounded-3xl shadow-2xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 cursor-pointer"
-      onclick="openModal('Gabriel Yustin', 'YustinFormal.JPEG', 'Pengalaman saya selama 3 tahun adalah... Sangat mengesankan✨')">
+      onclick="openModal('Gabriel Yustin', 'YustinFormal.jpeg', 'Pengalaman saya selama 3 tahun adalah... Sangat mengesankan✨')">
       <h2 class="text-3xl font-bold text-center mb-6 text-blue-900 dark:text-yellow-200">Gabriel Yustin</h2>
       <div class="bg-blue-50 dark:bg-gray-800 p-4 rounded-xl shadow-inner">
-        <img src="Yustin Bebas.JPEG" alt="Foto Gabriel" class="rounded-xl mx-auto hover:scale-105 transition-transform duration-300 w-full h-[460px] object-cover">
+        <img src="Yustin Bebas.jpeg" alt="Foto Gabriel" class="rounded-xl mx-auto hover:scale-105 transition-transform duration-300 w-full h-[460px] object-cover">
       </div>
     </div>
 
-    <!-- Alumni 3 -->
+    <!-- Henric -->
     <div class="alumni-card bg-white dark:bg-gray-700 p-8 rounded-3xl shadow-2xl hover:shadow-2xl transition duration-300 transform hover:-translate-y-1 cursor-pointer"
-      onclick="openModal('Henric Eugene', 'HenricFormal.JPEG', 'Selama 3 tahun, saya telah mendapatkan banyak sekali pengetahuan serta ketrampilan dari kunjungan maupun magang.')">
+      onclick="openModal('Henric Eugene', 'HenricFormal.jpeg', 'Selama 3 tahun, saya telah mendapatkan banyak sekali pengetahuan serta ketrampilan dari kunjungan maupun magang.')">
       <h2 class="text-3xl font-bold text-center mb-6 text-blue-900 dark:text-yellow-200">Henric Eugene</h2>
       <div class="bg-blue-50 dark:bg-gray-800 p-4 rounded-xl shadow-inner">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/User-Pict-Profil.svg/1365px-User-Pict-Profil.svg.png" alt="Foto Henric"
